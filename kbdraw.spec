@@ -8,7 +8,7 @@ Group:		Libraries
 Source0:	http://ftp.gnome.org/pub/gnome/sources/kbdraw/0.1/%{name}-%{version}.tar.bz2
 # Source0-md5:	6e7d260a959dce8447967d11a3850fd7
 BuildRequires:	gcc-c++
-BuildRequires:	gtk+2-devel >= 2.2.0
+BuildRequires:	gtk+2-devel >= 2:2.2.0
 BuildRequires:	pkgconfig
 BuildRequires:	popt-devel
 Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

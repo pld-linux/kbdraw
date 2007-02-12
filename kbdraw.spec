@@ -1,5 +1,5 @@
 Summary:	GTK+ widget that draws Xkb keyboards
-Summary(pl):	Widget GTK+ rysuj±cy klawiatury Xkb
+Summary(pl.UTF-8):   Widget GTK+ rysujÄ…cy klawiatury Xkb
 Name:		kbdraw
 Version:	0.1.0
 Release:	1
@@ -19,33 +19,33 @@ gets the keyboard geometry and keysyms from X. It can draw any
 keyboard configuration. By default it draws the current one for the
 display.
 
-%description -l pl
-Kbdraw to widget GTK+ rysuj±cy klawiatury Xkb oraz program testowy dla
-niego. Pobiera geometriê klawiatury oraz keysymy z X. Mo¿e narysowaæ
-dowoln± konfiguracjê klawiatury. Domy¶lnie rysuje bie¿±c± dla ekranu.
+%description -l pl.UTF-8
+Kbdraw to widget GTK+ rysujÄ…cy klawiatury Xkb oraz program testowy dla
+niego. Pobiera geometriÄ™ klawiatury oraz keysymy z X. MoÅ¼e narysowaÄ‡
+dowolnÄ… konfiguracjÄ™ klawiatury. DomyÅ›lnie rysuje bieÅ¼Ä…cÄ… dla ekranu.
 
 %package devel
 Summary:	Header files to develop kbdraw applications
-Summary(pl):	Pliki nag³ówkowe do tworzenia aplikacji kbdraw
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe do tworzenia aplikacji kbdraw
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files to develop kbdraw applications.
 
-%description devel -l pl
-Pliki nag³ówkowe do tworzenia aplikacji korzystaj±cych z kbdraw.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe do tworzenia aplikacji korzystajÄ…cych z kbdraw.
 
 %package static
 Summary:	Static version of kbdraw library
-Summary(pl):	Statyczna wersja biblioteki kbdraw
+Summary(pl.UTF-8):   Statyczna wersja biblioteki kbdraw
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static version of kbdraw library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna wersja biblioteki kbdraw.
 
 %prep

@@ -1,5 +1,5 @@
 Summary:	GTK+ widget that draws Xkb keyboards
-Summary(pl.UTF-8):   Widget GTK+ rysujący klawiatury Xkb
+Summary(pl.UTF-8):	Widget GTK+ rysujący klawiatury Xkb
 Name:		kbdraw
 Version:	0.1.0
 Release:	1
@@ -26,7 +26,7 @@ dowolną konfigurację klawiatury. Domyślnie rysuje bieżącą dla ekranu.
 
 %package devel
 Summary:	Header files to develop kbdraw applications
-Summary(pl.UTF-8):   Pliki nagłówkowe do tworzenia aplikacji kbdraw
+Summary(pl.UTF-8):	Pliki nagłówkowe do tworzenia aplikacji kbdraw
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -38,7 +38,7 @@ Pliki nagłówkowe do tworzenia aplikacji korzystających z kbdraw.
 
 %package static
 Summary:	Static version of kbdraw library
-Summary(pl.UTF-8):   Statyczna wersja biblioteki kbdraw
+Summary(pl.UTF-8):	Statyczna wersja biblioteki kbdraw
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 

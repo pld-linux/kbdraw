@@ -11,7 +11,7 @@ BuildRequires:	autoconf
 BuildRequires:	gtk+2-devel >= 2:2.2.0
 BuildRequires:	pkgconfig
 BuildRequires:	popt-devel
-Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Kbdraw is a GTK+ widget and test program that draws Xkb keyboards. It
